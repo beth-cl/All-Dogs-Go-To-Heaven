@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playermovement.cs",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\playermovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\playermovement.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\playermovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\playermovement.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:33:42.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
