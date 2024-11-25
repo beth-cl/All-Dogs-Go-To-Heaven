@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\camerafollow.cs" />
+    <Compile Include="Assets\scripts\digspots\OjectSpawner.cs" />
     <Compile Include="Assets\scripts\playermovement.cs" />
   </ItemGroup>
   <ItemGroup>
