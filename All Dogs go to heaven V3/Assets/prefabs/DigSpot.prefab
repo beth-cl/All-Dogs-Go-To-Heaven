@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5388009549832583845}
   - component: {fileID: 6839417668718105626}
   - component: {fileID: 8986007132532413185}
+  - component: {fileID: 288726775152370298}
   m_Layer: 0
   m_Name: DigSpot
   m_TagString: DigSite
@@ -99,9 +100,21 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &288726775152370298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768669859358365441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5a25a294f5a284391eba0d7d1489c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

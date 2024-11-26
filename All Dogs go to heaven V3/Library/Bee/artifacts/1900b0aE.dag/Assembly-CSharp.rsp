@@ -355,6 +355,7 @@
 "Assets/scripts/camerafollow.cs"
 "Assets/scripts/collision.cs"
 "Assets/scripts/digspots/OjectSpawner.cs"
+"Assets/scripts/digspots/testscript.cs"
 "Assets/scripts/digspots/text appear on screen.cs"
 "Assets/scripts/playermovement.cs"
 -langversion:9.0

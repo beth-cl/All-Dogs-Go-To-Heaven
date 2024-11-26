@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\ojectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ojectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\DigSpotSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\dig sites\\DigSpotSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\ojectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\ojectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\digSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\dig sites\\digSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\text appear on screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\text appear on screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OjectSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\OjectSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\OjectSpawner.cs",
-              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\OjectSpawner.cs",
-              "RelativeToolTip": "Assets\\scripts\\OjectSpawner.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAsAAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\OjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\OjectSpawner.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\OjectSpawner.cs",
+              "RelativeToolTip": "Assets\\scripts\\digspots\\OjectSpawner.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:12:23.758Z",
+              "WhenOpened": "2024-11-26T15:15:52.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DigSpotSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\DigSpotSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\dig sites\\DigSpotSpawner.cs",
-              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\DigSpotSpawner.cs",
-              "RelativeToolTip": "Assets\\scripts\\dig sites\\DigSpotSpawner.cs",
+              "DocumentIndex": 0,
+              "Title": "collision.cs",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\collision.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\collision.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\collision.cs",
+              "RelativeToolTip": "Assets\\scripts\\collision.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:41:43.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "digSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\digSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\dig sites\\digSpawner.cs",
-              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\dig sites\\digSpawner.cs",
-              "RelativeToolTip": "Assets\\scripts\\dig sites\\digSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:34:13.3Z",
+              "WhenOpened": "2024-11-26T14:10:55.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "camerafollow.cs",
-              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\camerafollow.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\camerafollow.cs",
-              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\camerafollow.cs",
-              "RelativeToolTip": "Assets\\scripts\\camerafollow.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAcAAAAcAAAAAAAAAA==",
+              "Title": "text appear on screen.cs",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\text appear on screen.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\text appear on screen.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\text appear on screen.cs",
+              "RelativeToolTip": "Assets\\scripts\\digspots\\text appear on screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:12:44.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "playermovement.cs",
-              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\playermovement.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\playermovement.cs",
-              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\playermovement.cs",
-              "RelativeToolTip": "Assets\\scripts\\playermovement.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:33:42.21Z"
+              "WhenOpened": "2024-11-26T10:10:29.64Z",
+              "EditorCaption": ""
             }
           ]
         }

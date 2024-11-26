@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class OjectSpawner : MonoBehaviour
@@ -11,6 +12,12 @@ public class OjectSpawner : MonoBehaviour
 
     private int spawnCount = 0;
 
+    public int GetSpawnCount(int Counter)
+    {
+        Counter = spawnCount;
+        return Counter;
+    }
+
     private void Start()
     {
         // Start the spawn process
@@ -19,7 +26,7 @@ public class OjectSpawner : MonoBehaviour
             //InvokeRepeating("SpawnObject", 0f, spawnInterval);  // Spawns objects repeatedly at set intervals
             SpawnObject();
             spawnCount++;
-            Debug.Log(spawnCount + " " + maxspawnCount);
+            //Debug.Log(spawnCount + " " + maxspawnCount);
         }
         
     }
