@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/camerafollow.cs"
 "Assets/scripts/digspots/OjectSpawner.cs"
+"Assets/scripts/digspots/text appear on screen.cs"
 "Assets/scripts/playermovement.cs"
 -langversion:9.0
 /deterministic
