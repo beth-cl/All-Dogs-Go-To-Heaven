@@ -10,12 +10,26 @@ public class OjectSpawner : MonoBehaviour
     public Vector3 spawnAreaSize = new Vector3(10f, 0f, 10f); // Defines the area where objects will spawn
     public int maxspawnCount = 10;
 
-    private int spawnCount = 0;
+     [SerializeField] private int spawnCount = 0;
 
-    public int GetSpawnCount(int Counter)
+    public int GetSpawnCount() // get function for private variable
     {
-        Counter = spawnCount;
-        return Counter;
+        return spawnCount;
+    }
+
+    public void SetSpawnCount(int PublicCount) // set function for private variable
+    {
+        spawnCount = PublicCount;
+    }
+
+    public void DecreaseSpawnCount()
+    {
+        spawnCount--;
+    }
+
+    public void IncreaseSpawnCount()
+    {
+        spawnCount++;
     }
 
     private void Start()
@@ -25,7 +39,7 @@ public class OjectSpawner : MonoBehaviour
         {
             //InvokeRepeating("SpawnObject", 0f, spawnInterval);  // Spawns objects repeatedly at set intervals
             SpawnObject();
-            spawnCount++;
+            IncreaseSpawnCount();
             //Debug.Log(spawnCount + " " + maxspawnCount);
         }
         
@@ -36,6 +50,7 @@ public class OjectSpawner : MonoBehaviour
         if (spawnCount != maxspawnCount)
         {
             SpawnObject();
+            IncreaseSpawnCount();
         }
 
     }

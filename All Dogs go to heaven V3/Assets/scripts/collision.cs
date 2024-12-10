@@ -5,6 +5,7 @@ using UnityEngine;
 public class collision : MonoBehaviour
 {
     bool digCollision = false;
+    public OjectSpawner oject;
 
 
     // Start is called before the first frame update
@@ -26,7 +27,9 @@ public class collision : MonoBehaviour
             Debug.Log("Collision with DigSite detected!");
             Destroy(collision.gameObject);
             //digCollision = true;
-            OjectSpawner.spawnCount()--;
+
+            oject.DecreaseSpawnCount();
+
 
         }
     }

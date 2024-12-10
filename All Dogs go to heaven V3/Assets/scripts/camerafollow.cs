@@ -6,14 +6,14 @@ public class camerafollow : MonoBehaviour
 {
     //public variables, can be set in engine
     public Transform player;
-    public Vector3 offset;
+    private Vector3 offset;
     public float smoothSpeed = 0.125f;
     // Start is called before the first frame update
     void Start()
     {
         if (offset == Vector3.zero) //manually sets an offset if one hasn't been set
         {
-            offset = new Vector3(0f, 5f, -10f);
+            offset = new Vector3(0f, 5f, -25f);
         }
         
     }
