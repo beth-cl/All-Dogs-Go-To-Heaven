@@ -538,7 +538,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1632620836}
-  offset: {x: 0, y: 0, z: -15}
   smoothSpeed: 0.125
 --- !u!1 &1304106403
 GameObject:
@@ -660,6 +659,7 @@ GameObject:
   - component: {fileID: 1632620837}
   - component: {fileID: 1632620839}
   - component: {fileID: 1632620838}
+  - component: {fileID: 1632620840}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -803,12 +803,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632620832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf5a25a294f5a284391eba0d7d1489c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oject: {fileID: 0}
+  digCollision: 0
+--- !u!114 &1632620840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632620832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85de8ceca2836bd4eb45d1768615e23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2080050302
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1011,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 768669859358365441, guid: d1ad90cafdd23b74fba76574d70fe53c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5754289435955394929}
+    - targetCorrespondingSourceObject: {fileID: 768669859358365441, guid: d1ad90cafdd23b74fba76574d70fe53c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5754289435955394934}
   m_SourcePrefab: {fileID: 100100000, guid: d1ad90cafdd23b74fba76574d70fe53c, type: 3}
 --- !u!1 &5754289435955394928 stripped
 GameObject:
@@ -1012,7 +1027,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5754289435955394928}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c57704b94fae3040b9ddd39c8b89551, type: 3}
   m_Name: 
@@ -1020,7 +1035,22 @@ MonoBehaviour:
   objectToSpawn: {fileID: 768669859358365441, guid: d1ad90cafdd23b74fba76574d70fe53c, type: 3}
   spawnAreaSize: {x: 20, y: 0, z: 20}
   maxspawnCount: 10
-  spawnCount: 0
+  respawnDelay: 2
+--- !u!114 &5754289435955394934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5754289435955394928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70ef224e45c1864680810ab3f48c167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objecttospawn: {fileID: 0}
+  spawnAreaSize: {x: 10, y: 0, z: 10}
+  spawndelay: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

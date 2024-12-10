@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class OjectSpawner : MonoBehaviour
+public class OjectSpawner :MonoBehaviour
 {
     public GameObject objectToSpawn; // The object to spawn (assign the prefab in the Inspector)
     //public float spawnInterval = 3f; // Time interval between spawns (in seconds)
     public Vector3 spawnAreaSize = new Vector3(10f, 0f, 10f); // Defines the area where objects will spawn
     public int maxspawnCount = 10;
+    public float respawnDelay = 2f;
 
-     [SerializeField] private int spawnCount = 0;
+    private int spawnCount = 0;
+    spawncountcheapout cheapout = new spawncountcheapout();
+    //int var =  cheapout.GetSpawnCount();
 
-    public int GetSpawnCount() // get function for private variable
+
+
+    // funtions for when the spawn count was a private variable
+    /*public int GetSpawnCount() // get function for private variable
     {
         return spawnCount;
     }
@@ -22,37 +28,28 @@ public class OjectSpawner : MonoBehaviour
         spawnCount = PublicCount;
     }
 
-    public void DecreaseSpawnCount()
+    public void DecreaseSpawnCount() // decrease spawncount
     {
         spawnCount--;
     }
 
-    public void IncreaseSpawnCount()
+    public void IncreaseSpawnCount() // increase spawncount
     {
         spawnCount++;
-    }
-
-    private void Start()
-    {
-        // Start the spawn process
-        while (spawnCount < maxspawnCount)
-        {
-            //InvokeRepeating("SpawnObject", 0f, spawnInterval);  // Spawns objects repeatedly at set intervals
-            SpawnObject();
-            IncreaseSpawnCount();
-            //Debug.Log(spawnCount + " " + maxspawnCount);
-        }
-        
-    }
+    }*/
 
     private void Update()
     {
-        if (spawnCount != maxspawnCount)
+        // Start the spawn process
+        if (spawnCount < maxspawnCount)
         {
+            //InvokeRepeating("SpawnObject", 0f, spawnInterval);  // Spawns objects repeatedly at set intervals
             SpawnObject();
-            IncreaseSpawnCount();
+            //IncreaseSpawnCount();
+            spawnCount++;
         }
 
+        
     }
 
     void SpawnObject()
@@ -66,6 +63,19 @@ public class OjectSpawner : MonoBehaviour
 
         // Instantiate the object at the random position
         Instantiate(objectToSpawn, randomPosition, Quaternion.identity);
+    }
+
+    public void OnDestroy()
+    {
+        //Destroy(objectToSpawn);
+        StartCoroutine(RespawnObjectAfterDelay());
+        Debug.Log("test onobject destroyed");
+    }
+
+    private IEnumerator RespawnObjectAfterDelay()
+    {
+        yield return new WaitForSeconds(respawnDelay);
+        SpawnObject();
     }
 
 }
