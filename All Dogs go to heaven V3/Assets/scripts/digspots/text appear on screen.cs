@@ -23,7 +23,7 @@ public class textappearonscreen : MonoBehaviour
     void checkcollision()
     {
         col = new collision();
-        collide = col.digCollision;
+        collide =
         if (collide == true)
         {
             textMeshPro.enabled = true;

@@ -1,17 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class TextChange2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI textUI; // Drag your TMP Text UI here
+
+    private EventController eventcontroller;
+
+    private void Start()
+    {
+        eventcontroller = new EventController();
+
+    }
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void ShowText()
+    {
+        if (eventcontroller.getcollision == true)
+        {
+            textUI.enabled = true;
+        }
+    }
+
+    void HideText()
     {
         
     }

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\second try\\collisionchecker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\assets\\scripts\\digspots\\second try\\collisionchecker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\second try\\collisionchecker2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\second try\\objectspawner2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\second try\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\assets\\scripts\\digspots\\second try\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\second try\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\second try\\textchange2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\assets\\scripts\\digspots\\second try\\textchange2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\second try\\textchange2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\text appear on screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\text appear on screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|c:\\users\\blc_2\\documents\\github\\all-dogs-go-to-heaven\\all dogs go to heaven v3\\assets\\scripts\\digspots\\second try\\showtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DC3C0B-35BC-4859-6F1C-E4260874DDE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\digspots\\second try\\showtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "text appear on screen.cs",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\text appear on screen.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\text appear on screen.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\text appear on screen.cs",
+              "RelativeToolTip": "Assets\\scripts\\digspots\\text appear on screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:45:23.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "showtext.cs",
+              "DocumentMoniker": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\showtext.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\second try\\showtext.cs",
+              "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\showtext.cs",
+              "RelativeToolTip": "Assets\\scripts\\digspots\\second try\\showtext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T13:22:59.539Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -36,7 +70,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\second try\\TextChange2.cs",
               "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\TextChange2.cs",
               "RelativeToolTip": "Assets\\scripts\\digspots\\second try\\TextChange2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:35:01.724Z",
               "EditorCaption": ""
@@ -49,7 +83,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\second try\\CollisionChecker2.cs",
               "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\CollisionChecker2.cs",
               "RelativeToolTip": "Assets\\scripts\\digspots\\second try\\CollisionChecker2.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAzwCMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:34:58.934Z",
               "EditorCaption": ""
@@ -62,7 +96,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\second try\\ObjectSpawner2.cs",
               "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\ObjectSpawner2.cs",
               "RelativeToolTip": "Assets\\scripts\\digspots\\second try\\ObjectSpawner2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:34:54.822Z",
               "EditorCaption": ""
@@ -75,7 +109,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\digspots\\second try\\EventController.cs",
               "ToolTip": "C:\\Users\\blc_2\\Documents\\GitHub\\All-Dogs-Go-To-Heaven\\All Dogs go to heaven V3\\Assets\\scripts\\digspots\\second try\\EventController.cs",
               "RelativeToolTip": "Assets\\scripts\\digspots\\second try\\EventController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:31:02.452Z",
               "EditorCaption": ""

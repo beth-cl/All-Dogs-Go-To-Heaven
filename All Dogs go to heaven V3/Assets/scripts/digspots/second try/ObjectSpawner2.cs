@@ -19,7 +19,7 @@ public class ObjectSpawner2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (eventcontroller.currentspawns < eventcontroller.maxspawns)
+        while (eventcontroller.currentspawns < eventcontroller.maxspawns)
         {
             //InvokeRepeating("SpawnObject", 0f, spawnInterval);  // Spawns objects repeatedly at set intervals
             SpawnObject();
@@ -27,7 +27,7 @@ public class ObjectSpawner2 : MonoBehaviour
             eventcontroller.currentspawns++;
         }
     }
-    void SpawnObject()
+    public void SpawnObject()
     {
         Vector3 randomPosition = transform.position + new Vector3(Random.Range(-spawnAreaSize.x / 2, spawnAreaSize.x / 2), 0f, Random.Range(-spawnAreaSize.z / 2, spawnAreaSize.z / 2));
         Instantiate(objecttospawn, randomPosition, Quaternion.identity);

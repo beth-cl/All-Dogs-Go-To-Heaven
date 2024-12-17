@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6839417668718105626}
   - component: {fileID: 8986007132532413185}
   - component: {fileID: 288726775152370298}
+  - component: {fileID: 960752133426215592}
   m_Layer: 0
   m_Name: DigSpot
   m_TagString: DigSite
@@ -119,3 +120,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   digCollision: 0
+--- !u!114 &960752133426215592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768669859358365441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ae02dbbb20ccf4195b79416c5e23bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
